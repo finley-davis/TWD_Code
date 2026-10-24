@@ -4,8 +4,7 @@ import pandas as pd
 
 #add github file path later
 #this one is a fildownlaoded at a different time (April 5th, 2025)
-df = pd.read_csv(''
-'data/WellMain.txt', sep = '|', encoding = "cp1252", on_bad_lines = 'warn')
+df = pd.read_csv('data/WellMain.txt', sep = '|', encoding = "cp1252", on_bad_lines = 'warn')
 
 #only use useful columns
 df = df[['StateWellNumber', 'WellDepth', 'County', 'DrillingYear', 'Aquifer', 'LongitudeDD', 'LatitudeDD']]
@@ -28,3 +27,6 @@ df = df[(df['DrillingYear'] >= 1920) & (df['DrillingYear'] <= 2023)]
 
 #final shape of all used data points
 print(f'Final dataframe shape: {df.shape}\n')
+
+#output filtered data to csv for use in other scripts
+df.to_csv('data/filtered_well_data.csv', index = False)

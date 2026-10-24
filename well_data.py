@@ -4,7 +4,8 @@ import pandas as pd
 
 #add github file path later
 #this one is a fildownlaoded at a different time (April 5th, 2025)
-df = pd.read_csv('/Users/finleydavis/Downloads/GWDBDownload/GWDBDownload/WellMain.txt', sep = '|', encoding = "cp1252", on_bad_lines = 'warn')
+df = pd.read_csv(''
+'data/WellMain.txt', sep = '|', encoding = "cp1252", on_bad_lines = 'warn')
 
 #only use useful columns
 df = df[['StateWellNumber', 'WellDepth', 'County', 'DrillingYear', 'Aquifer', 'LongitudeDD', 'LatitudeDD']]

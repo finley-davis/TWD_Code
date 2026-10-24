@@ -1,0 +1,17 @@
+Initial dataframe shape: (142230, 7)
+
+Dataframe shape after filtering by aquifer: (94417, 7)
+
+Total null values: 
+StateWellNumber        0
+WellDepth          11964
+County                 0
+DrillingYear       26578
+Aquifer                0
+LongitudeDD            0
+LatitudeDD             0
+dtype: int64
+
+Dataframe shape after dropping null values: (66741, 7)
+
+Final dataframe shape: (63606, 7)

@@ -13,6 +13,7 @@ print(f'Initial dataframe shape: {df.shape}\n')
 
 #only look at data from these aquifer (the nine major in Texas)
 df = df[df['Aquifer'].isin(['Ogallala', 'Edwards (Balcones Fault Zone)', 'Edwards-Trinity Plateau', 'Carrizo-Wilcox', 'Gulf Coast', 'Pecos Valley', 'Seymour', 'Trinity', 'Hueco-Mesilla Bolson'])]
+print(f'Dataframe shape after filtering by aquifer: {df.shape}\n')
 
 #show the total amount of null values being removed for each column, then drop
 print(f'Total null values: \n{df.isna().sum()}\n')

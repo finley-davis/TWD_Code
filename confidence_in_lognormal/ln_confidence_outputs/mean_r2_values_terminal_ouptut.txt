@@ -1,0 +1,18 @@
+Mean log r^2 for Ogallala: 0.9494096294197388
+Mean non-log r^2 for Ogallala: 0.9049607743160387
+Mean log r^2 for Seymour: 0.9084863680977874
+Mean non-log r^2 for Seymour: 0.8490007932175928
+Mean log r^2 for Carrizo-Wilcox: 0.9488018626609453
+Mean non-log r^2 for Carrizo-Wilcox: 0.7354863104899876
+Mean log r^2 for Trinity: 0.963286117105789
+Mean non-log r^2 for Trinity: 0.7409360773740115
+Mean log r^2 for Pecos Valley: 0.8834834733158924
+Mean non-log r^2 for Pecos Valley: 0.8396592449994513
+Mean log r^2 for Edwards-Trinity Plateau: 0.9253312705610555
+Mean non-log r^2 for Edwards-Trinity Plateau: 0.7935441109474002
+Mean log r^2 for Gulf Coast: 0.9663082992920315
+Mean non-log r^2 for Gulf Coast: 0.7823123935972293
+Mean log r^2 for Edwards (Balcones Fault Zone): 0.9374361695398551
+Mean non-log r^2 for Edwards (Balcones Fault Zone): 0.8439731008562408
+Mean log r^2 for Hueco-Mesilla Bolson: 0.8772303484408495
+Mean non-log r^2 for Hueco-Mesilla Bolson: 0.9011438589096049
